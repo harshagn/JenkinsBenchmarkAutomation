@@ -1,0 +1,43 @@
+<UserInput>
+	<SUTInformation>
+		<platform>sy660fpspeed</platform>
+		<hostIP>10.10.0.114</hostIP>
+		<hostUsername>root</hostUsername>
+		<hostPassword>hp123456</hostPassword>
+		<iLOIP>10.115.48.102</iLOIP>
+		<iLOUsername>admin</iLOUsername>
+		<iLOPassword>hp123456</iLOPassword>
+		<os>rhel</os>
+		<osSelect>manual</osSelect>
+		<bootConfig>HD.EmbRAID.1.4</bootConfig>
+		<skipBIOS>no</skipBIOS>
+		<screen>cpu</screen>
+	</SUTInformation>
+
+	
+	<BenchmarkInformation>
+		<kitPath>/home/cpu2017/</kitPath>
+		<fileName>fpspeed</fileName>
+		<userInputs>None</userInputs>
+	</BenchmarkInformation>
+	
+	
+	<TunableParameters>
+		<BIOSParameters isCustomProfile="True" toBeTuned="True">
+			<WorkloadProfile>GeneralPeakFrequencyCompute</WorkloadProfile>
+			<ProcHyperthreading>Enabled</ProcHyperthreading>
+			<ThermalConfig>MaxCooling</ThermalConfig>
+			<UncoreFreqScaling>Auto</UncoreFreqScaling>
+			<LlcPrefetch>Disabled</LlcPrefetch>
+			<LLCDeadLineAllocation>Disabled</LLCDeadLineAllocation>
+			<StaleAtoS>Disabled</StaleAtoS>
+			<XptPrefetcher>Disabled</XptPrefetcher>
+			<EnergyPerfBias>MaxPerf</EnergyPerfBias>
+			<MemPatrolScrubbing>Disabled</MemPatrolScrubbing>
+			<EnhancedProcPerf>Enabled</EnhancedProcPerf>
+			<NumaGroupSizeOpt>Flat</NumaGroupSizeOpt>
+			<AdvancedMemProtection>AdvancedEcc</AdvancedMemProtection>
+		</BIOSParameters>
+	</TunableParameters>
+
+</UserInput>

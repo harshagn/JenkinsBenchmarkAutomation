@@ -1,0 +1,8 @@
+Benchmark=fpspeed
+hostIP=10.10.0.9
+hostPassword=hp123456
+TuningComment=sy660-fpspeed-fdrtest
+maxFreq=3800
+memConfig='2Rx4 PC4-2933Y-R'
+autoKitPath=D:\Users\Harsha\JenkinsAutomation\SPECCPUFDR-Automation_phase3_icx
+hkey=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCeKDGrLpN3F/rWdjgrOnTMMo5cmMAicxST5SeL8RQMQaSMsorChjgeza6Uqhz07Ulzv2vjK/DkE/eRQbvGTMziWxvuOlX+SHLur5dyy1q0Ov81qf6waM7u7q3dPb98v+/OzfuEe6LKlkMq2Swfl+Xm1471ETRCagjahMFrePNeA9DssMZU6ktHU1e4uHFvgJXaOf1XKtVGNTP9cLBEynYKVm8lnLFQoRBb2J+jHBdQnDk1e1/eG8rArHDyElFKv8CMxX1ENIa+/Xt4WtVZJf/d2GokYnrEDZzng9uqL2TIhY6+Qqe/Zlam/fdf1WsPTQE9y1CHBAKOy89oZIb8jkUn vtune
